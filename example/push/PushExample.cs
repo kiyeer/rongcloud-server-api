@@ -23,7 +23,7 @@ namespace io.rong.example.push
         /**
          * 自定义api地址
          * */
-        private static String api = "http://api-cn.ronghub.com";
+        //private static String api = "http://api-cn.ronghub.com";
 
 
         public static void Main(String[] args)

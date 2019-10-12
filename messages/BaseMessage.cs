@@ -7,9 +7,9 @@ namespace io.rong.messages
 {
     public abstract class BaseMessage
     {
-        public abstract String GetType();
+        public abstract string GetType();
 
         override
-        public abstract String ToString();
+        public abstract string ToString();
     }
 }

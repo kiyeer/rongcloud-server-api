@@ -1,15 +1,8 @@
 using io.rong.util;
-using io.rong.methods.user.blacklist;
-using io.rong.methods.user.block;
-using io.rong.methods.user.onlineStatus;
 using io.rong.models.conversation;
 using io.rong.models;
 using io.rong.models.response;
-using io.rong.models.push;
-using io.rong.util;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Web;
 
@@ -26,7 +19,7 @@ namespace io.rong.methods.conversation
     {
         private static readonly Encoding UTF8 = Encoding.UTF8;
         private static readonly String PATH = "conversation";
-        private static String method = "";
+        //private static String method = "";
         private String appKey;
         private String appSecret;
         private RongCloud rongCloud;

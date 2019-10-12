@@ -2,10 +2,7 @@
 using io.rong.models;
 using io.rong.models.response;
 using io.rong.models.push;
-using io.rong.util;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Web;
 
@@ -48,6 +45,7 @@ namespace io.rong.methods.user.onlineStatus
          *
          * @return CheckOnlineResult
          **/
+
         public CheckOnlineResult Check(UserModel user)
         {
             //参数校验
@@ -61,7 +59,7 @@ namespace io.rong.methods.user.onlineStatus
             String body = sb.ToString();
             if (body.IndexOf("&") == 0)
             {
-                body = body.Substring(1, body.Length);
+                body = body.Substring(1, body.Length-1);
             }
 
             String result = RongHttpClient.ExecutePost(appKey, appSecret, body,

@@ -13,7 +13,7 @@ namespace io.rong.exception
         /**
          *
          */
-        private static readonly long serialVersionUID = -700374663662873165L;
+        //private static readonly long serialVersionUID = -700374663662873165L;
         protected Error error = null;
         public RcloudException()
         {

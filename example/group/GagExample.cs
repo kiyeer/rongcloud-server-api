@@ -26,7 +26,7 @@ namespace io.rong.example.group
         /**
          * 自定义api地址
          * */
-        private static readonly String api = "http://api.cn.ronghub.com";
+        //private static readonly String api = "http://api.cn.ronghub.com";
 
         /**
          * 本地调用测试

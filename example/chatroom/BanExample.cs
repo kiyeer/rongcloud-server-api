@@ -2,14 +2,7 @@ using io.rong.models.response;
 using io.rong.methods.chatroom;
 using io.rong.methods.chatroom.ban;
 using io.rong.models.chatroom;
-using io.rong.util;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.IO;
-using Newtonsoft.Json;
-using io.rong.models.conversation;
 
 namespace io.rong.example.chatroom
 {
@@ -27,7 +20,7 @@ namespace io.rong.example.chatroom
         /**
          * 自定义api地址C:\Users\rc\Downloads\server-sdk-dotnet-master\example\chatroom\BanExample.cs
          * */
-        private static readonly String api = "http://api.cn.ronghub.com";
+        //private static readonly String api = "http://api.cn.ronghub.com";
 
         static void Main(String[] args)
         {

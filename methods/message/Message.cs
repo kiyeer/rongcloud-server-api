@@ -15,9 +15,9 @@ namespace io.rong.methods.message
 
     {
 
-        private static readonly Encoding UTF8 = Encoding.UTF8;
-        private static readonly String PATH = "message";
-        private static String method = "";
+        //private static readonly Encoding UTF8 = Encoding.UTF8;
+        //private static readonly String PATH = "message";
+        //private static String method = "";
         private String appKey;
         private String appSecret;
         public Private msgPrivate;

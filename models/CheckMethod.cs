@@ -9,6 +9,7 @@ namespace io.rong.models
 
     {
         public static String ADD = "add";
+        public static String INFO = "info";
         public static String GETLIST = "getList";
         public static String REMOVE = "remove";
         public static String CREATE = "create";

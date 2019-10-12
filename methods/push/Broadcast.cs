@@ -13,7 +13,7 @@ namespace io.rong.methods.push
 {
     public class Broadcast
     {
-        private static String UTF8 = "UTF-8";
+        //private static String UTF8 = "UTF-8";
         private static String PATH = "push";
         private String appKey;
         private String appSecret;

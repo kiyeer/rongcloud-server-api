@@ -37,8 +37,6 @@ namespace io.rong.models.response
 
         [JsonIgnore]
         public string UserId { get => userId; set => userId = value; }
-        [JsonIgnore]
-        public string UserId1 { get => userId; set => userId = value; }
 
         override
         public String ToString()

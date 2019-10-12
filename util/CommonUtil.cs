@@ -6,6 +6,8 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Reflection;
 using System.Resources;
+using System.Runtime.Remoting.Channels;
+using System.Web;
 using io.rong.models.response;
 using io.rong.models.push;
 
@@ -69,7 +71,8 @@ namespace io.rong.util
          **/
         private static JObject FromPath(String path)
         {
-            StreamReader file = System.IO.File.OpenText("jsonsource/" + path);
+            var fullPath = HttpContext.Current.Server.MapPath("/layui/jsonsource/" + path);
+            StreamReader file = System.IO.File.OpenText(fullPath);
             JsonTextReader reader = new JsonTextReader(file);
             JObject jObject = (JObject)JToken.ReadFrom(reader);
 
@@ -405,7 +408,7 @@ namespace io.rong.util
             try
             {
                 String code = "200";
-                bool flag = false;
+                //bool flag = false;
                 int max = 64;
                 String type = "";
                 String apiPath = path;

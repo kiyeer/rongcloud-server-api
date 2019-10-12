@@ -7,7 +7,6 @@ using io.rong.util;
 using io.rong.models;
 using System.Web;
 using io.rong.models.response;
-using io.rong.util;
 
 namespace io.rong.methods.user.block
 {

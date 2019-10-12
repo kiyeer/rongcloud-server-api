@@ -4,10 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using io.rong.models.message;
-using io.rong.exception;
 using io.rong.util;
 using System.Web;
-using io.rong.util;
 
 namespace io.rong.methods.messages.system
 {

@@ -12,7 +12,7 @@ namespace io.rong.exception
 
     {
 
-        private static readonly long serialVersionUID = -5021603276540528761L;
+        //private static readonly long serialVersionUID = -5021603276540528761L;
 
         public ParamException()
         {

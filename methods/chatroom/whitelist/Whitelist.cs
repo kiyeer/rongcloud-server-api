@@ -18,7 +18,7 @@ namespace io.rong.methods.chatroom.whitelist
 
     {
         private static readonly Encoding UTF8 = Encoding.UTF8;
-        private static readonly String PATH = "chatroom/whitelist";
+        //private static readonly String PATH = "chatroom/whitelist";
         private String appKey;
         private String appSecret;
         private RongCloud rongCloud;
