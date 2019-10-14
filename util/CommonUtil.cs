@@ -71,7 +71,7 @@ namespace io.rong.util
          **/
         private static JObject FromPath(String path)
         {
-            var fullPath = HttpContext.Current.Server.MapPath("/layui/jsonsource/" + path);
+            var fullPath = HttpContext.Current.Server.MapPath("/layim/jsonsource/" + path);
             StreamReader file = System.IO.File.OpenText(fullPath);
             JsonTextReader reader = new JsonTextReader(file);
             JObject jObject = (JObject)JToken.ReadFrom(reader);
